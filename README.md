@@ -1,7 +1,7 @@
 Homeland
 --------
 
-[![Gem Version](https://badge.fury.io/rb/homeland.svg)](https://badge.fury.io/rb/homeland) [![Build Status](https://travis-ci.org/huacnlee/homeland.svg)](https://travis-ci.org/huacnlee/homeland) [![Code Climate](https://codeclimate.com/github/huacnlee/homeland/badges/gpa.svg)](https://codeclimate.com/github/huacnlee/homeland) [![codecov.io](https://codecov.io/github/huacnlee/homeland/coverage.svg?branch=master)](https://codecov.io/github/huacnlee/homeland?branch=master)
+[![Gem Version](https://badge.fury.io/rb/homeland.svg)](https://badge.fury.io/rb/homeland) [![Build Status](https://travis-ci.org/rails-engine/homeland.svg)](https://travis-ci.org/rails-engine/homeland) [![codecov.io](https://codecov.io/github/rails-engine/homeland/coverage.svg?branch=master)](https://codecov.io/github/rails-engine/homeland?branch=master) [![](http://inch-ci.org/github/rails-engine/homeland.svg?branch=master)](http://inch-ci.org/github/rails-engine/homeland?branch=master)
 
 > A new style forum for tiny community as Rails Engine. You can mount this in any of you Rails apps.
 
@@ -53,14 +53,7 @@ gem 'github-markup'
 $ rails g homeland:install
 ```
 
-3. 在 routes.rb 里面 mount Homeland:
-
-```ruby
-# config/routes.rb
-mount Homeland::Engine, at: "/homeland"
-```
-
-4. 自定义配置
+3. 自定义配置
 
 ```ruby
 # config/initializes/homeland.rb
